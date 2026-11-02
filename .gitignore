@@ -1,0 +1,13 @@
+# Credentials: never commit
+.env
+.env.*
+
+# Runtime output written by the scanner and the Kotak SDK
+logs/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
