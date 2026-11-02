@@ -1,13 +1,30 @@
 # Credentials: never commit
 .env
 .env.*
+!.env.example
 
 # Runtime output written by the scanner and the Kotak SDK
+kotak_nifty200_scanner.log*
+*.log
 logs/
 cache/
 
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+build/
+dist/
 .venv/
 venv/
+
+# Tool caches and coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS metadata
+.DS_Store
+Thumbs.db

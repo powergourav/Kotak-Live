@@ -1,0 +1,7 @@
+# Direct runtime dependencies validated on Python 3.11.
+kotakneoapi==3.0.13
+pyotp==2.10.0
+python-dotenv==1.2.4
+requests==2.34.2
+urllib3==2.8.0
+tzdata==2026.6
